@@ -1,0 +1,22 @@
+{
+  "name": "email_spam_detection_backend",
+  "version": "1.0.0",
+  "description": "This is the backend file (Server of the Email Spam Detection 4th Semester Learning Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "run": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Keshab Sharma , Ravi Kant Thakur and Rohit Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "python-shell": "^5.0.0"
+  }
+}
